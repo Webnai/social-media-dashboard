@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Social Media Dashboard</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header class="header container">
+      <div class="header__info">
+        <h1 class="header__heading">Social Media Dashboard</h1>
+        <span class="header__followers">Total Followers: 23,004</span>
+      </div>
+      <div class="header__toggle">
+        <span class="header__toggle-mode">Dark Mode</span>
+        <input id="toggle-input" class="header__toggle-input" type="checkbox" />
+        <label class="header__toggle-label" for="toggle-input"></label>
+      </div>
+    </header>
+
+    <main>
+      <div class="highlights container">
+        <div class="highlight highlight--facebook">
+          <div class="highlight__user">
+            <img
+              src="./images/icon-facebook.svg"
+              alt="Facebook Icon"
+              class="highlight__user-icon"
+            />
+            <span class="highlight__user-name">@webnai</span>
+          </div>
+          <div class="highlight__count">
+            <span class="highlight__count-number">1987</span>
+            <span class="highlight__count-label">Followers</span>
+          </div>
+          <div class="highlight__progress highlight__progress--up">
+            <img
+              src="./images/icon-up.svg"
+              alt="Icon up"
+              class="highlight__progress-icon"
+            />
+            <span class="highlight__progress-label">12 Today</span>
+          </div>
+        </div>
+        <div class="highlight highlight--twitter">
+          <div class="highlight__user">
+            <img
+              src="./images/icon-twitter.svg"
+              alt="Twitter Icon"
+              class="highlight__user-icon"
+            />
+            <span class="highlight__user-name">@webnai</span>
+          </div>
+          <div class="highlight__count">
+            <span class="highlight__count-number">1044</span>
+            <span class="highlight__count-label">Followers</span>
+          </div>
+          <div class="highlight__progress highlight__progress--up">
+            <img
+              src="./images/icon-up.svg"
+              alt="Icon up"
+              class="highlight__progress-icon"
+            />
+            <span class="highlight__progress-label">99 Today</span>
+          </div>
+        </div>
+        <div class="highlight highlight--instagram highlight__progress--up">
+          <div class="highlight__user">
+            <img
+              src="./images/icon-instagram.svg"
+              alt="Instagram Icon"
+              class="highlight__user-icon"
+            />
+            <span class="highlight__user-name">@webnai</span>
+          </div>
+          <div class="highlight__count">
+            <span class="highlight__count-number">11k</span>
+            <span class="highlight__count-label">Followers</span>
+          </div>
+          <div class="highlight__progress">
+            <img
+              src="./images/icon-up.svg"
+              alt="Icon up"
+              class="highlight__progress-icon"
+            />
+            <span class="highlight__progress-label">1099 Today</span>
+          </div>
+        </div>
+        <div class="highlight highlight--youtube">
+          <div class="highlight__user">
+            <img
+              src="./images/icon-youtube.svg"
+              alt="YouTube Icon"
+              class="highlight__user-icon"
+            />
+            <span class="highlight__user-name">webnai</span>
+          </div>
+          <div class="highlight__count">
+            <span class="highlight__count-number">8239</span>
+            <span class="highlight__count-label">Subscribers</span>
+          </div>
+          <div class="highlight__progress highlight__progress--down">
+            <img
+              src="./images/icon-down.svg"
+              alt="Icon down"
+              class="highlight__progress-icon"
+            />
+            <span class="highlight__progress-label">12 Today</span>
+          </div>
+        </div>
+      </div>
+
+      <section class="overview container">
+        <h2 class="overview__heading">Overview - Today</h2>
+        <div class="overview__items">
+          <div class="stat">
+            <div class="stat__top">
+              <span class="stat__label">Page Views</span>
+              <img
+                src="./images/icon-facebook.svg"
+                alt="Facebook Icon"
+                class="stat__icon"
+              />
+            </div>
+            <div class="stat__bottom">
+              <span class="stat__number">87</span>
+              <div class="stat__progress stat__progress--up">
+                <img
+                  src="./images/icon-up.svg"
+                  alt="Icon up"
+                  class="stat__progress-icon"
+                />
+                <span class="stat__progress-label">3%</span>
+              </div>
+            </div>
+          </div>
+          <div class="stat">
+            <div class="stat__top">
+              <span class="stat__label">Likes</span>
+              <img
+                src="./images/icon-facebook.svg"
+                alt="Facebook Icon"
+                class="stat__icon"
+              />
+            </div>
+            <div class="stat__bottom">
+              <span class="stat__number">52</span>
+              <div class="stat__progress stat__progress--down">
+                <img
+                  src="./images/icon-down.svg"
+                  alt="Icon down"
+                  class="stat__progress-icon"
+                />
+                <span class="stat__progress-label">2%</span>
+              </div>
+            </div>
+          </div>
+          <div class="stat">
+            <div class="stat__top">
+              <span class="stat__label">Likes</span>
+              <img
+                src="./images/icon-instagram.svg"
+                alt="Instagram Icon"
+                class="stat__icon"
+              />
+            </div>
+            <div class="stat__bottom">
+              <span class="stat__number">5462</span>
+              <div class="stat__progress stat__progress--up">
+                <img
+                  src="./images/icon-up.svg"
+                  alt="Icon up"
+                  class="stat__progress-icon"
+                />
+                <span class="stat__progress-label">2257%</span>
+              </div>
+            </div>
+          </div>
+          <div class="stat">
+            <div class="stat__top">
+              <span class="stat__label">Profile Views</span>
+              <img
+                src="./images/icon-instagram.svg"
+                alt="Instagram Icon"
+                class="stat__icon"
+              />
+            </div>
+            <div class="stat__bottom">
+              <span class="stat__number">52k</span>
+              <div class="stat__progress stat__progress--up">
+                <img
+                  src="./images/icon-up.svg"
+                  alt="Icon up"
+                  class="stat__progress-icon"
+                />
+                <span class="stat__progress-label">1375%</span>
+              </div>
+            </div>
+          </div>
+          <div class="stat">
+            <div class="stat__top">
+              <span class="stat__label">Retweets</span>
+              <img
+                src="./images/icon-twitter.svg"
+                alt="Twitter Icon"
+                class="stat__icon"
+              />
+            </div>
+            <div class="stat__bottom">
+              <span class="stat__number">117</span>
+              <div class="stat__progress stat__progress--up">
+                <img
+                  src="./images/icon-up.svg"
+                  alt="Icon up"
+                  class="stat__progress-icon"
+                />
+                <span class="stat__progress-label">303%</span>
+              </div>
+            </div>
+          </div>
+          <div class="stat">
+            <div class="stat__top">
+              <span class="stat__label">Likes</span>
+              <img
+                src="./images/icon-twitter.svg"
+                alt="Twitter Icon"
+                class="stat__icon"
+              />
+            </div>
+            <div class="stat__bottom">
+              <span class="stat__number">507</span>
+              <div class="stat__progress stat__progress--up">
+                <img
+                  src="./images/icon-up.svg"
+                  alt="Icon up"
+                  class="stat__progress-icon"
+                />
+                <span class="stat__progress-label">553%</span>
+              </div>
+            </div>
+          </div>
+          <div class="stat">
+            <div class="stat__top">
+              <span class="stat__label">Likes</span>
+              <img
+                src="./images/icon-youtube.svg"
+                alt="YouTube Icon"
+                class="stat__icon"
+              />
+            </div>
+            <div class="stat__bottom">
+              <span class="stat__number">107</span>
+              <div class="stat__progress stat__progress--down">
+                <img
+                  src="./images/icon-down.svg"
+                  alt="Icon down"
+                  class="stat__progress-icon"
+                />
+                <span class="stat__progress-label">19%</span>
+              </div>
+            </div>
+          </div>
+          <div class="stat">
+            <div class="stat__top">
+              <span class="stat__label">Total Views</span>
+              <img
+                src="./images/icon-youtube.svg"
+                alt="YouTube Icon"
+                class="stat__icon"
+              />
+            </div>
+            <div class="stat__bottom">
+              <span class="stat__number">1407</span>
+              <div class="stat__progress stat__progress--down">
+                <img
+                  src="./images/icon-down.svg"
+                  alt="Icon down"
+                  class="stat__progress-icon"
+                />
+                <span class="stat__progress-label">12%</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Social Media Dashboard Total Followers: 23,004 Dark Mode @nathanf 1987
+      Followers 12 Today @nathanf 1044 Followers 99 Today @realnathanf 11k
+      Followers 1099 Today Nathan F. 8239 Subscribers 144 Today Overview - Today
+      Page Views 87 3% Likes 52 2% Likes 5462 2257% Profile Views 52k 1375%
+      Retweets 117 303% Likes 507 553% Likes 107 19% Total Views 1407 12% -->
+  </body>
+</html>
